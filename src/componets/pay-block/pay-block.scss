@@ -1,0 +1,97 @@
+.pay-block{
+    height:400px;
+	width:100%;
+    display: flex;
+    flex-direction: column;
+	margin-top:20px;
+	align-items: center;
+	justify-content: space-around;
+ 
+    &__header{
+    
+        font-size:30px;
+        color:rgb(80, 180, 247);
+        font-weight: bold;
+        padding-left:25px;
+        padding-top:25px;
+      }
+      &__container{
+        height:180px;
+        width:180px;
+        background-color: rgb(245, 244, 244);
+        margin:5px;
+        box-shadow: 0 0 5px rgba(70, 67, 67, 0.5); 
+        border-radius:5px;
+        display: flex;
+        flex-direction: column;
+        &:hover{
+            box-shadow: 0px 25px 20px -20px rgb(196, 192, 192); 
+        }
+      }
+      &__text{
+        font-size:16px;
+        color:rgb(80, 180, 247);
+        font-weight: bold;
+        text-align:center;
+        
+      }
+}
+
+.pay-block-item2{
+    display: flex;
+    flex-direction: row;
+}
+
+.pay-block__icon-bit{
+	width: 120px;
+	height: 120px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+	background-image: url(../../images/bitcoin.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.pay-block__icon-master{
+	width: 120px;
+	height: 120px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+	background-image: url(../../images/visa_mc.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.pay-block__icon-mts{
+	width: 120px;
+	height: 120px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+	background-image: url(../../images/mts.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.pay-block__icon-web{
+	width: 120px;
+	height: 120px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+	background-image: url(../../images/webmoney.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.pay-block__icon-payeer{
+	width: 120px;
+	height: 120px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+	background-image: url(../../images/payeer.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}

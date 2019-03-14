@@ -1,0 +1,27 @@
+@import "_variable";
+@import "adap";
+@import "../componets/header/header";
+@import "../componets/pay-block/pay-block";
+@import "../componets/main-block/main-block";
+@import "../componets/footer/footer";
+@import "../componets/form-block/form-block";
+
+
+
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+
+body{
+	background:white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+

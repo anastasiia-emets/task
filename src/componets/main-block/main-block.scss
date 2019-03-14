@@ -1,0 +1,57 @@
+.main-block {
+
+	  height: 270px;
+	  width: 950px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    margin-top:80px;
+  &__header{
+    
+    font-size:30px;
+    color:rgb(80, 180, 247);
+    font-weight: bold;
+    padding-left:25px;
+    padding-top:25px;
+  }
+  &__text-price {
+    font-size:30px;
+    color:rgb(80, 180, 247);
+    font-weight: bold;
+  
+  }
+  &__line{
+      height: 1.5px;
+      background-color: rgb(238, 231, 231);
+      width: 910px;
+      border:0;
+  }
+  &__description{
+      color:grey;
+      font-size:19px;
+  }
+  &__price{
+      display:flex;
+      justify-content: space-between;
+      padding:20px;
+      padding-top:5px !important;
+  }
+  &__info{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}

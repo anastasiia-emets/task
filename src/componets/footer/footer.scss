@@ -1,0 +1,53 @@
+.footer {
+	height: 77px;
+	width: 100%;
+	display: flex;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	margin-top: 20px;
+	background-color: rgb(245, 244, 244);
+	align-items: center;
+	justify-content: space-around;
+	&__message-text {
+		color: black;
+		font-size: 19px;
+		margin-top: 20px;
+	}
+	&__button {
+		border: 0;
+		background-color: rgb(245, 244, 244);
+		color: black;
+	}
+}
+
+.footer-item3 {
+	display: flex;
+}
+
+.footer__visa {
+	width: 70px;
+	height: 40px;
+	margin-left: 30px;
+	background-image: url(../../images/visa.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.footer__card {
+	width: 70px;
+	height: 40px;
+	margin-left: 30px;
+	filter: grayscale(100%);
+}
+
+.footer__dss {
+	width: 70px;
+	height: 40px;
+	margin-left: 30px;
+	filter: grayscale(100%);
+}
+
+.footer__visa {
+	width: 90px;
+	height: 40px;
+	filter: grayscale(100%);
+}
