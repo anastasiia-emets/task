@@ -117,7 +117,7 @@
   height: 15px;
   margin-right: 10px;
   margin-top: 2px;
-  background-image: url(../../images/email.svg);
+  background-image: url(../images/email.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -223,7 +223,7 @@
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-image: url(../../images/bitcoin.png);
+  background-image: url(../images/bitcoin.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -234,7 +234,7 @@
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-image: url(../../images/visa_mc.png);
+  background-image: url(../images/visa_mc.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -245,7 +245,7 @@
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-image: url(../../images/mts.png);
+  background-image: url(../images/mts.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -256,7 +256,7 @@
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-image: url(../../images/webmoney.png);
+  background-image: url(../images/webmoney.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -267,7 +267,7 @@
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-image: url(../../images/payeer.png);
+  background-image: url(../images/payeer.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -386,7 +386,7 @@
   width: 70px;
   height: 40px;
   margin-left: 30px;
-  background-image: url(../../images/visa.png);
+  background-image: url(../images/visa.png);
   background-position: center;
   background-repeat: no-repeat;
 }
